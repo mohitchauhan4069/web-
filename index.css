@@ -5,6 +5,7 @@ body {
 }
 
 .header {
+    padding: 20px;
     overflow: hidden;
     background-color: #1d055e;
     padding: 20px 10px;
@@ -44,4 +45,40 @@ body {
     .header-right {
         float: none;
     }
+}
+
+.para p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(247, 242, 242);
+}
+
+.button1 {
+    color: #fafafa;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .1);
+    width: 180px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(180, 58, 153);
+    background: linear-gradient(90deg, rgba(180, 58, 153, 1) 25%, rgba(252, 176, 69, 1) 100%);
+    transition: .4s;
+}
+
+.button1:hover {
+    border-radius: 20px;
+}
+
+.para1 {
+    padding: 110px;
+    padding-top: 130px;
+}
+
+.para2 img {
+    height: 335px;
+    width: 400px;
+    margin-left: 720px;
+    margin-top: -305px;
 }

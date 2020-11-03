@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "montserrat", sans-serif;
+        box-sizing: border-box;
+        background-color: blue;
+    }
+    
+    .services-section {
+        background-size: cover;
+        padding: 60px 0;
+    }
+    
+    .inner-width {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+        overflow: hidden;
+    }
+    
+    .section-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    
+    .border {
+        width: 160px;
+        height: 2px;
+        background: #82ccdd;
+        margin: 40px auto;
+    }
+    
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .services-box {
+        max-width: 33.33%;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .services-icon {
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        border: 3px solid red;
+        transform: rotate(45deg);
+        margin-bottom: 30px;
+        padding-top: 10px;
+        transition: 0.3sec linear;
+    }
+    
+    .services-icon i {
+        line-height: 50px;
+        transform: rotate(-45deg);
+        font-size: 26px;
+    }
+    
+    .services-box:hover .services-icon {
+        color: rgb(117, 241, 241);
+    }
+    
+    .service-title {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    .service-desc {
+        font-size: 14px;
+    }
+    
+    @media screen and (max-width: 960px) {
+        .services-box {
+            max-width: 45%;
+        }
+    }
+    
+    @media screen and (max-width: 760px) {
+        .services-box {
+            max-width: 50%;
+        }
+    }
+    
+    @media screen and (max-width: 460px) {
+        .services-box {
+            max-width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <div class="services-section">
+        <div class="inner-width">
+            <h1 class="section-title">Our Services</h1>
+            <div class="border"></div>
+            <div class="services-container">
+                <div class="services-box">
+                    <div class="services-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="service-title">Web design</div>
+                    <div class="service-desc"></div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+
+
+
+                <div class="services-box">
+                    <div class="services-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-title">Web dovelopement</div>
+                    <div class="service-desc"></div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+
+
+
+
+                <div class="services-box">
+                    <div class="services-icon">
+                        <i class="fas fa-brush"></i>
+                    </div>
+                    <div class="service-title">responsive Design</div>
+                    <div class="service-desc"></div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+
+
+                <div class="services-box">
+                    <div class="services-icon">
+                        <i class="fas fa-object-ungroup"></i>
+                    </div>
+                    <div class="service-title">Edit Sections</div>
+                    <div class="service-desc"></div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+
+
+
+                <div class="services-box">
+                    <div class="services-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="service-title">Data-Base</div>
+                    <div class="service-desc"></div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+
+
+
+                <div class="services-box">
+                    <div class="services-icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="service-title">Android</div>
+                    <div class="service-desc"></div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
