@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Team Section</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .showcase {
+        background-color: #170949;
+        min-height: 100vh;
+        padding: 70px 15px 30px;
+    }
+    
+    .item3 {
+        max-width: 1170px;
+        margin: auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .showcase .team-items {
+        flex-basis: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .showcase .team-items .item {
+        flex-basis: calc(40% - 30px);
+        max-width: calc(30% - 30px);
+        transition: all .5s ease;
+        margin-bottom: 60px;
+    }
+    
+    .showcase .team-items .item img {
+        display: block;
+        width: 100%;
+        border-radius: 8px;
+    }
+    
+    .showcase .team-items .item .inner .info {
+        padding: 20px 15px;
+        /* border-radius: 8px; */
+        transition: all .5s ease;
+        margin-top: -40px;
+    }
+    
+    @media(max-width: 991px) {
+        .showcase .team-items .item {
+            flex-basis: calc(50% - 30px);
+            max-width: calc(50% - 30px);
+        }
+    }
+    
+    @media(max-width: 767px) {
+        .showcase .team-items .item {
+            flex-basis: calc(100%);
+            max-width: calc(100%);
+        }
+    }
+    
+    body {
+        color: white;
+    }
+    
+    #item1 {
+        margin-top: 150px;
+    }
+    
+    #item2 {
+        margin-top: 50px;
+    }
+</style>
+
+<body>
+
+    <section class="showcase">
+        <div class="item3">
+
+            <div class="row">
+                <div class="team-items">
+                    <div id="item1" class="item">
+                        <h2>Invest To The Future </h2>
+                        <h2> Buisness Technology!</h2>
+                        <p><span> The use of crypto currencies had become more widepress,they are now</p></span>
+                            <p>Lorem ipsum dolor sit amet, consectetur do to elit.</p>
+                            <p>Lorem ipsum dolor sit amet. that are thy more expensive .</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur .</p>
+
+                            <button class="button3"><i class="fa fa-apple"> App Store</i></button>
+                            <button class="button3"><i class="fa fa-play"> Google play</i></button>
+
+                    </div>
+
+                    <div id="item2" class="item">
+                        <img src="images/mobile.png" alt="team" />
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+</body>
+
+</html>

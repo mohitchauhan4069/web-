@@ -606,7 +606,8 @@ body {
 }
 
 .team-section .team-items .item .inner .info {
-    background-color: #eff0c1;
+    background: rgb(180, 58, 153);
+    background: linear-gradient(90deg, rgb(231, 145, 188) 25%, rgb(228, 171, 91) 100%);
     text-align: center;
     padding: 20px 15px;
     border-radius: 8px;
@@ -750,4 +751,137 @@ body {
     .file3 {
         width: 100%;
     }
+}
+
+p {
+    color: white;
+}
+
+
+/* 1st layout */
+
+.showcase {
+    background-color: #170949;
+    min-height: 100vh;
+    padding: 70px 15px 30px;
+}
+
+.item3 {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.showcase .team-items {
+    flex-basis: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.showcase .team-items .item {
+    flex-basis: calc(40% - 30px);
+    max-width: calc(30% - 30px);
+    transition: all .5s ease;
+    margin-bottom: 60px;
+}
+
+.showcase .team-items .item img {
+    display: block;
+    width: 100%;
+}
+
+.showcase .team-items .item .inner .info {
+    padding: 20px 15px;
+    /* border-radius: 8px; */
+    transition: all .5s ease;
+    margin-top: -40px;
+}
+
+@media(max-width: 991px) {
+    .showcase .team-items .item {
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+    }
+}
+
+@media(max-width: 767px) {
+    .showcase .team-items .item {
+        flex-basis: calc(100%);
+        max-width: calc(100%);
+    }
+}
+
+body {
+    color: white;
+}
+
+#item1 {
+    font-size: 15px;
+    margin-top: 150px;
+}
+
+#item2 {
+    margin-top: 50px;
+}
+
+
+/* question div css  */
+
+h1 {
+    color: white;
+}
+
+.grand_parent {
+    width: 100vw;
+    height: 100vh;
+    /* background: #1e0c5f; */
+    color: #fff;
+}
+
+#h11 {
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+}
+
+.parents {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+}
+
+.child {
+    height: 200px;
+    /* background: #81ecec; */
+    box-shadow: 0 0 20px #bac3c3;
+    flex: 1 1 200px;
+    margin: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .grand_parent {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.last {
+    text-align: center;
+    padding-top: 20px
 }
