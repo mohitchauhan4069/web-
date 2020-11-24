@@ -885,3 +885,57 @@ p {
     text-align: center;
     padding-top: 20px
 }
+
+
+/* about us page */
+
+.grand_parent1 {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+}
+
+.parents1 {
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+}
+
+.child1 {
+    /* height: 400px;
+    width: 400px; */
+    flex: 1 1 150px;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    .grand_parent1 {
+        height: auto;
+    }
+}
+
+.child1 {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.button5 {
+    color: #fafafa;
+    background-color: rgb(180, 58, 153);
+    box-shadow: 0 6px 10px rgba(228, 93, 176, 0.1);
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(180, 58, 153);
+    background: linear-gradient(90deg, rgb(204, 116, 186) 25%, rgba(252, 176, 69, 1) 100%);
+    transition: .4s;
+}
+
+#search::placeholder {
+    color: #fafafa;
+}
